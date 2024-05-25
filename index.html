@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>assigment-21</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+        <header class="head">
+            <div class="logo">
+                <img src="logo.png" alt="logo">
+            </div>
+            <div class="bars">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+        <div class="main">
+            <div class="container">
+                     <div class="tayer-top">
+                        <div class="layer-1">
+                            <img src="1.jpg" alt="img-1">
+                        </div>
+                        <div class="layer-2">
+                            <div class="card">
+                                <h2>Top Logistics Companies</h2>
+                                <p>Urna duis convallis convallis tellus id
+                                    interdum velit laoreet. Odio
+                                    pellentesque diam volutpat
+                                    commodo sed egestas egestas
+                                    fringilla. Nunc eget lorem dolor sed
+                                    viverra ipsum nunc aliquet.</p>
+                                <button>LEARN MORE</button>
+                                <p>Images from <a href="#">Freepik</a></p>
+                            </div>
+                        </div>
+                     </div>
+                    <div class="tayer-bottum">
+                        <div class="layer-3">
+                            <img src="2.jpg" alt="img-2">
+                        </div>
+                        <div class="layer-4">
+                            <div class="box"></div>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="overlay">
+                <div class="artical">
+                    <ul>
+                        <li>HOME</li>
+                        <li>ABOUT</li>
+                        <li>SERVICE</li>
+                        <li>CONTACT US</li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+
+        <footer>
+            <p>Sample text. Click to select the Text Element.</p>
+            <hr>
+            <p><a href="#">Website Templates</a>created with<a href="#">Website Builder Software</a>.</p>
+        </footer>
+
+
+        <script>
+            let bras = document.querySelector(".bars");
+            let overlay = document.querySelector(".overlay");
+            bras.addEventListener("click",function(){
+
+                overlay.classList.toggle("add");
+
+            })
+        </script>
+    </body>
+</html>
